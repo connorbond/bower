@@ -1,0 +1,27 @@
+{
+    "name": "Connor's Bower Test",
+    "description": "A test package for testing purposes.",
+    "keywords": ["Connor", "Bond", "Bespoke"],
+    "version": "0.0.1",
+    "homepage": "http://connorbond.co.uk",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/connorbond/bower.git"
+    },
+    "main": [
+        "scss/normalise.scss",
+        "index.html"
+    ],
+    "authors": [
+        "Connor Bond", "Connor Bond <connorbond@outlook.com>"
+    ],
+    "ignore": [
+    ],
+    "dependencies": {
+        "jquery": ">= 2.1.0",
+        "modernizr": ">= 2.7.2",
+        "fastclick": ">=0.6.11"
+    },
+    "devDependencies": {
+    }
+}
